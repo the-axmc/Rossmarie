@@ -17,7 +17,7 @@ We focus on:
 - Web3 onboarding
 - Sustainable business growth
 
-The platform will feature gated access to exclusive content via a custom access token and identity verification using **Self Protocol**, with growth powered by a **referral engine** via **Divvi**.
+The platform will feature gated access to exclusive content via a custom access token and identity verification using **World**.
 
 ---
 
@@ -32,8 +32,7 @@ To make financial literacy, mentorship, and entrepreneurial tools accessible, in
 - ✅ **1:1 Mentoring** for women and early-stage startups
 - 📚 **Educational Content** covering personal finance, investing, DeFi, and business development
 - 🔐 **Token-Gated Access** to private areas (newsletter, programs, workshops)
-- 🧬 **Decentralized Identity Verification** via [Self Protocol](https://self.id)
-- 👯‍♀️ **Referral Engine** via [Divvi](https://divvi.xyz)
+- 🧬 **Decentralized Identity Verification** via [World]((https://docs.world.org/))
 - 📬 **Exclusive Content & Resources** to deepen financial understanding
 - 🌍 **Aligned with UN SDGs**: Gender Equality (SDG 5), Quality Education (SDG 4), Decent Work (SDG 8), and Reduced Inequalities (SDG 10)
 
@@ -42,7 +41,6 @@ To make financial literacy, mentorship, and entrepreneurial tools accessible, in
 ## 🛠 Tech Stack
 
 - **Smart Contract** (ERC-20 or NFT for access token)
-- **Self Protocol** – Wallet-based identity verification
-- **Divvi** – Referral system for community growth
+- **World** – Wallet-based identity verification
 - **Frontend** – No-code tool (Webflow) or React + WalletConnect
 - **Newsletter & Content Delivery** – Ghost / Notion / Email tool
