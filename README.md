@@ -1,33 +1,46 @@
-## Create a Mini App
+# Blumfi
+# 🌱 Financial Empowerment Platform for Women and Entrepreneurs
 
-[Mini apps](https://docs.worldcoin.org/mini-apps) enable third-party developers to create native-like applications within World App.
+**A mission-driven Web3 project designed to democratize access to financial education, professional mentorship, and business strategy for women and early-stage founders.** This platform empowers users through token-gated access to resources, combining decentralized identity, community-based growth, and sustainable digital models.
 
-This template is a way for you to quickly get started with authentication and examples of some of the trickier commands.
+---
 
-## Getting Started
+## 🚀 Overview
 
-1. cp .env.example .env.local
-2. Follow the instructions in the .env.local file
-3. Run `npm run dev`
-4. Run `ngrok http 3000`
-5. Run `npx auth secret` to update the `AUTH_SECRET` in the .env.local file
-6. Add your domain to the `allowedDevOrigins` in the next.config.ts file.
-7. [For Testing] If you're using a proxy like ngrok, you need to update the `AUTH_URL` in the .env.local file to your ngrok url.
-8. Continue to developer.worldcoin.org and make sure your app is connected to the right ngrok url
-9. [Optional] For Verify and Send Transaction to work you need to do some more setup in the dev portal. The steps are outlined in the respective component files.
+This initiative bridges financial literacy, strategic business guidance, and digital tools to help women and entrepreneurs take full control of their economic futures.
 
-## Authentication
+We focus on:
 
-This starter kit uses [Minikit's](https://github.com/worldcoin/minikit-js) wallet auth to authenticate users, and [next-auth](https://authjs.dev/getting-started) to manage sessions.
+- Financial education
+- Professional empowerment
+- Strategic consulting
+- Web3 onboarding
+- Sustainable business growth
 
-## UI Library
+The platform will feature gated access to exclusive content via a custom access token and identity verification using **World**.
 
-This starter kit uses [Mini Apps UI Kit](https://github.com/worldcoin/mini-apps-ui-kit) to style the app. We recommend using the UI kit to make sure you are compliant with [World App's design system](https://docs.world.org/mini-apps/design/app-guidelines).
+---
 
-## Eruda
+## 🎯 Mission
 
-[Eruda](https://github.com/liriliri/eruda) is a tool that allows you to inspect the console while building as a mini app. You should disable this in production.
+To make financial literacy, mentorship, and entrepreneurial tools accessible, inclusive, and action-oriented — with a gender-conscious and sustainability-first approach.
 
-## Contributing
+---
 
-This template was made with help from the amazing [supercorp-ai](https://github.com/supercorp-ai) team.
+## 🧩 Features
+
+- ✅ **1:1 Mentoring** for women and early-stage startups
+- 📚 **Educational Content** covering personal finance, investing, DeFi, and business development
+- 🔐 **Token-Gated Access** to private areas (newsletter, programs, workshops)
+- 🧬 **Decentralized Identity Verification** via [World]((https://docs.world.org/))
+- 📬 **Exclusive Content & Resources** to deepen financial understanding
+- 🌍 **Aligned with UN SDGs**: Gender Equality (SDG 5), Quality Education (SDG 4), Decent Work (SDG 8), and Reduced Inequalities (SDG 10)
+
+---
+
+## 🛠 Tech Stack
+
+- **Smart Contract** (ERC-20 or NFT for access token)
+- **World** – Wallet-based identity verification
+- **Frontend** – No-code tool (Webflow) or React + WalletConnect
+- **Newsletter & Content Delivery** – Ghost / Notion / Email tool
