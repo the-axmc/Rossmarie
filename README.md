@@ -1,4 +1,4 @@
-# Rossmarie
+# Blumfi
 # 🌱 Financial Empowerment Platform for Women and Entrepreneurs
 
 **A mission-driven Web3 project designed to democratize access to financial education, professional mentorship, and business strategy for women and early-stage founders.** This platform empowers users through token-gated access to resources, combining decentralized identity, community-based growth, and sustainable digital models.
