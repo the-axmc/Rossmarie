@@ -4,6 +4,8 @@ import { Session } from 'next-auth';
 import { SessionProvider } from 'next-auth/react';
 import dynamic from 'next/dynamic';
 import type { ReactNode } from 'react';
+import { ThemeProvider } from 'next-themes';
+import { Web3Provider } from './Web3Provider'; // Adjust path if necessary
 
 const ErudaProvider = dynamic(
   () => import('@/providers/Eruda').then((c) => c.ErudaProvider),
@@ -34,9 +36,18 @@ export default function ClientProviders({
 }: ClientProvidersProps) {
   return (
     <ErudaProvider>
-      <MiniKitProvider>
-        <SessionProvider session={session}>{children}</SessionProvider>
-      </MiniKitProvider>
+      <ThemeProvider
+        attribute="class"
+        defaultTheme="system"
+        enableSystem
+        disableTransitionOnChange
+      >
+        <Web3Provider>
+          <MiniKitProvider>
+            <SessionProvider session={session}>{children}</SessionProvider>
+          </MiniKitProvider>
+        </Web3Provider>
+      </ThemeProvider>
     </ErudaProvider>
   );
 }
